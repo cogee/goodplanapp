@@ -6,16 +6,91 @@
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
 	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+	
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
 </head> 
 <body> 
 
 <div data-role="page">
 
 	<div data-role="header">
-		<h1>My Title</h1>
+		<h1>Good Plan</h1>
 	</div><!-- /header -->
 
 	<div data-role="content">	
+	
+	<div class="container">
+	<div class="row">
+		<div class="sixcol">
+			<script type="text/javascript">
+			
+$(function(){
+  $('#init1').click(function(){
+	$(this).fadeOut(800); 
+	$(after1).delay(800).fadeIn(800);
+	
+		
+  });
+});
+
+			
+			</script>
+			<div id="init1"></div>
+			
+			<div id="after1">
+			<ul data-role="listview" data-inset="true" data-filter="true">
+	<li><a href="#">New To Do</a></li>
+	<li><a href="#">To do archive</a></li>
+	<li><a href="#">Help</a></li>
+	
+</ul>
+			</div>
+		</div>
+		<div class="sixcol last">
+			<ul data-role="listview" data-inset="true" data-filter="true">
+	<li><a href="#">New To Do</a></li>
+	<li><a href="#">To do archive</a></li>
+	<li><a href="#">Help</a></li>
+	
+</ul>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="sixcol">
+			<ul data-role="listview" data-inset="true" data-filter="true">
+	<li><a href="#">New To Do</a></li>
+	<li><a href="#">To do archive</a></li>
+	<li><a href="#">Help</a></li>
+	
+</ul>
+		</div>
+		<div class="sixcol last">
+			<ul data-role="listview" data-inset="true" data-filter="true">
+	<li><a href="#">New To Do</a></li>
+	<li><a href="#">To do archive</a></li>
+	<li><a href="#">Help</a></li>
+	
+</ul>
+		</div>
+	</div>
+</div>
+<!--
 		<p>Hello world</p>		
 		<ul data-role="listview" data-inset="true" data-filter="true">
 	<li><a href="#">New To Do</a></li>
@@ -28,7 +103,7 @@
    <input type="range" name="slider" id="slider-0" value="25" min="0" max="100"  />
 </form>
 <a href="#" data-role="button" data-icon="star">Star button</a>
-<a href="#" data-role="button" data-icon="star" data-theme="a">Button</a>
+<a href="#" data-role="button" data-icon="star" data-theme="a">Button</a>-->
 	</div><!-- /content -->
 
 </div><!-- /page -->
