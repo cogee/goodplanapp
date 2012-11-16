@@ -3,6 +3,7 @@
 min-height:250px;
 background-color:red;
 margin:15px;
+cursor:pointer;
 }
 
 #after1
@@ -16,6 +17,7 @@ margin:15px;
 min-height:250px;
 background-color:yellow;
 margin:15px;
+cursor:pointer;
 }
 
 #after2
@@ -29,6 +31,7 @@ margin:15px;
 min-height:250px;
 background-color:blue;
 margin:15px;
+cursor:pointer;
 }
 
 #after3
@@ -42,6 +45,7 @@ margin:15px;
 min-height:250px;
 background-color:purple;
 margin:15px;
+cursor:pointer
 }
 
 #after4
@@ -49,4 +53,18 @@ margin:15px;
 display:none;
 min-height:250px;
 margin:15px;
+}
+
+
+
+
+
+
+
+		/*FONTS*/
+.bigbtn
+{
+text-align:center;
+padding-top:20%;
+cursor:pointer;
 }
